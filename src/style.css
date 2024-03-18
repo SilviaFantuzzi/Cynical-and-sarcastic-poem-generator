@@ -1,10 +1,46 @@
 body {
+    background-color:rgb(244, 193, 221) ;
+}
+
+#container {
+    background-color:  white;
     font-family: "Dancing script", cursive;
     text-align: center;
+    width: 750px;
+    padding: 50px 50px 25px 50px;
+    margin:10px auto;
+    border-width: 2px;
+    border-style: solid; 
+    border-color: rgba(116, 7, 7, 0.903);
+    border-radius: 10px;
+    box-shadow: 0px 50px 50px 0px rgba(116, 7, 7, 0.531);
 }
+.poem{
+    padding: 50px;
+    border-top: 1px solid rgba(116, 7, 7, 0.903);
+    border-bottom: 1px solid rgba(116, 7, 7, 0.903);
+    font-size: 20px;
+}
+
 
 h1 {
     text-align: center;
     font-family: "Dancing script", cursive;
     font-size: 40px;
+    font-weight: 900;
 }
+form {
+    text-align: center;
+}
+div {
+    text-align: center;
+    font-family: "Dancing script", cursive;
+}
+
+footer{
+        text-align: center;
+        font-family: "Dancing script", cursive;
+        color: #0000007f;
+        padding: 5px;
+}
+
