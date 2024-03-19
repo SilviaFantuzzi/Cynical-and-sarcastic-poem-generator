@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet" />
@@ -15,7 +16,7 @@
          <h1>Welcome to the AI cynical and sarcastic poem generator</h1> 
       </header>
      <main>
-         <form>
+         <form id="poem-generator-form">
               <input
                  type="text"
                  placeholder="Choose an argument"
@@ -23,15 +24,14 @@
                  required
                  autocomplete="off"
                />
-              <input type="submit" />
+              <input type="submit" value="submit" />
           </form>
           <br>
     
-         <div class="poem">
-             We chase success with fervent strength, but find that it fades into the night. For wealth and fame we sacrifice our souls, our morals, our very vice.
-             <br />
-             So let's drink to the cynic's creed, to the bitter truths, let's all join. Because life is a joke, a twisted joke, in this cynical and sarcastic quest.
-           </div>
+         <div class="poem" id="poem">
+             
+
+         </div>
    
         </main>
      
